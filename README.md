@@ -1,16 +1,40 @@
-# voicevideochat
+# Voice & Video App 
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+|  |  |
+|:-------------------------:|:-------------------------:|
+| ![](https://github.com/nurllhk/VoiceVideoChatAPI/assets/79688257/42a8e750-1430-474f-aac9-81a17b174d59)  |  ![](https://github.com/nurllhk/VoiceVideoChatAPI/assets/79688257/8114e7ff-a3c0-4cb7-859b-9a0fdf2d6387) |
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<br>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://github.com/nurllhk/VoiceVideoChatAPI/assets/79688257/6f112ca1-af23-4e2f-b6c4-de71ea69dea6
+
+<br>
+
+
+# package usage
+
+```sh 
+ ZegoUIKitPrebuiltCall(
+              appID: DefaultKey.AppId,
+              appSign: DefaultKey.Api,
+              callID: callid(),
+              userID: uid,
+              userName: "user_$uid",
+              config: ZegoUIKitPrebuiltCallConfig.oneOnOneVideoCall()
+                ..onOnlySelfInRoom = (context) => Navigator.pop(context))
+
+ ```
+<br>
+
+# packages used
+
+```sh 
+  cupertino_icons: ^1.0.2
+  zego_uikit_prebuilt_call: ^3.10.5
+  lottie: ^2.4.0
+
+ ```
+
