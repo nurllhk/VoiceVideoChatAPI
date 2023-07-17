@@ -24,11 +24,11 @@ migrate_working_dir/
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
+/lib/default.dart
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages
-/lib/default.dart
 .pub-cache/
 .pub/
 /build/

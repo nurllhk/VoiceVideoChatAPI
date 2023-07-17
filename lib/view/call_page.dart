@@ -6,7 +6,6 @@ import 'package:zego_uikit_prebuilt_call/zego_uikit_prebuilt_call.dart';
 
 class CallPage extends StatelessWidget {
   const CallPage({super.key, this.callID = "str"});
-
   final String callID;
 
   @override
